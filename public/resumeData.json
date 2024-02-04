@@ -1,0 +1,163 @@
+{
+  "main": {
+    "name": "Gaurav Singh",
+    "occupation": "Software Engineer Intern at Amazon",
+    "description": "(Jan 2023 - Current)",
+    "image": "profilepic.jpg",
+    "bio": "Hi there! I am Gaurav! Currenty, I am a Software Engineer Intern at Amazon. I am a Full Stack Developer, loved to build scable, high quality software solutions. Love to solve real world problems. I have solved 3 (800+ problems)  on LeetCode and (1700+ max) at CodeChef. Currently 1st 🥇at GeeksForGeeks Institute Portal (solved 650+) problems. I have done Frontend with vanillaJS and ReactJS. Backend with Node, Express. Specialized in M.E.R.N stack. Worked closely with Spring Boot, AWS in different internships. I have worked with MongoDB as well as MySQL database. I can also code in Python, Java, C++/C. Learning System Design (LLD). I am looking for new opportunities to hone my existing skills and develop new ones.",
+    "contactmessage": "Get in touch",
+    "email": "gs935688@gmail.com",
+    "phone": "+91 9517608244",
+    "resumedownload": "https://drive.google.com/file/d/18w4xyUcSGwET9BHd5YDBOJkxJHQm2BgG/view?usp=sharing",
+    "social": [
+      {
+        "name": "email",
+        "url": "mailto:gs935688@gmail.com",
+        "className": "fa fa-envelope-o"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/gauravsingh9356",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/gauravsingh9356",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "leetcode",
+        "url": "https://leetcode.com/gauravsingh9356_/",
+        "className": "fa fa-code"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "Indian Institute of Information Technology [IIIT], Kalyani",
+        "degree": "Bachelor's Degree, Computer Science and Engineering",
+        "graduated": "May 2023",
+        "description": "CGPA: 9.46/10"
+      }
+    ],
+    "work": [
+      {
+        "pic": "amazon.png",
+        "company": "Amazon",
+        "title": "Software Engineer Intern",
+        "years": "Jan 2023 - Current",
+        "description": " Developed high-performance API endpoints using Java Spring Boot and AWS serving 100k+ user base daily. Exhanced Customer Experience by reducing total Error Rate by 21% and scaling error handling mechanism.  Ensured system stability adding 15+ alarms with AWS Cloudwatch on Api’s and AWS lambda with CDK. Integrated CSM metrics on frontEnd side and reduced abandonment rate from 38% to 17% on Alexa PreSetup"
+      },
+      {
+        "pic": "c1x.jpg",
+        "company": "Class One Exchange (C1X Inc)",
+        "title": "Software Engineer Intern",
+        "years": "May 2022 - Dec 2022",
+        "description": "Created the 3rd Layer of DOOH (Digital Out Of Home) RPI server for receiving the ads from DOOH server. Improved the performance of Client side of 34% overall by converting it to SPA (Single Page Application) with React.Built REST API's in NodeJS and designed the Ads-Schema with typeORM for displaying the ads from PD server. Used Caching for maintaining responsiveness and got efficiency of 41% and pushed the Ads to Client through Sockets"
+      },
+      {
+        "pic": "retechgen.png",
+        "company": "Retechgen",
+        "title": "Software Engineer Intern",
+        "years": "July 2021 - November 2021",
+        "description": "Created the REST API using NodeJS and MongoDB from scratch for server hitting 10K+ traffic daily. Accelerated the performance by 54% converting it into a single page app (SPA) with ReactJS alongwith Redux. Built the whole Authentication with Authorization with BcryptJS, JWT Tokens, Nodemailer for 10K+ users. Added Firebase for image uploading and gained client performance by 27%. Worked with several npm packages"
+      },
+      {
+        "pic": "gdsc.png",
+        "company": "Google Developer Student Club (DSC) IIIT Kalyani",
+        "title": "Web Dev Lead",
+        "years": "August 2020 - August 2021",
+        "description": "Developed the Winter of Code (WoC) website for IIIT Kalyani GDSC WoC using HTML, CSS and JavaScript. Manged the whole event, managing the projects registered, Sponsors, Certificates"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "DevHood",
+        "description": "Complete Social Media Platform built using MERN stack. NextJS is used for Server Side Rendering. Implemented REST API using NodeJS, ExpressJS with Users, Posts, Profile, Notification, Chat and Follower models. Complete Authentication steps and Authorisation is served. Admin/Root user with all authorisation. Peer to Peer Chat functionality, Real-Time like and New Message notification using Socket.IO. Individual Profile Page with followers, following, etc. Video Chat feature is integrated with WebRTC. Separate Real-Time Group Code Editor with Sockets using Socket.IO library. Cloudinary is used for saving image files. Semantic-UI for user interfaces.",
+        "image": "DevHood.jpg",
+        "url": "https://noobhood.up.railway.app",
+        "skills": [
+          "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
+          "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
+          "https://img.shields.io/badge/Semantic%20UI%20React-%2335BDB2.svg?style=for-the-badge&logo=SemanticUIReact&logoColor=white",
+          "https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101",
+          "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black",
+          "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+          "https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white",
+          "https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white",
+          "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white",
+          "https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white",
+          "https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens",
+          "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white",
+          "https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white",
+          "https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"
+        ]
+      },
+      {
+        "title": "GS Kart",
+        "description": "Complete Ecommerce Application built using MERN stack. Redux is used for state management. Implemented REST API using NodeJS, ExpressJS with Users, Products, Wishlists, Orders and Reviews models. Firebase is used for Cloud Storage. Separate Admin CMS built for pushing, updating, monthly income reports about Products and Users. Complete Authentication steps and Authorisation is served. Direct Search, Add to wishlist functionality, Separate profile page, fetching orders, adding reviews functionality. Direct payment is also available through Stripe API Integration.",
+        "image": "GSKart.jpg",
+        "url": "http://gskart.netlify.app",
+        "skills": [
+          "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
+          "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
+          "https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white",
+          "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black",
+          "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+          "https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white",
+          "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white",
+          "https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white",
+          "https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens",
+          "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white",
+          "https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white"
+        ]
+      },
+      {
+        "title": "Souvenirs",
+        "description": "Compact Platform built using M.E.R.N stack. User can create, read, edit, delete, share and comment on posts with Authorisation. Fully Authenticated i.e custom auth as well as google auth, real time email checking, email verification, forgot password and reset password utility. Users can connect to each other though fully secured chat room and peer to peer video call utility is also added.",
+        "image": "MERN.jpg",
+        "url": "https://memoriesbygs.netlify.app",
+        "skills": [
+          "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
+          "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
+          "https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white",
+          "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black",
+          "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
+          "https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white",
+          "https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node-dot-js&logoColor=white",
+          "https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white",
+          "https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens",
+          "https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white",
+          "https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white",
+          "https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"
+        ]
+      },
+      {
+        "title": "GN Tours and Services",
+        "description": "The objective of the GN Tours and Services project is to develop a system that automates the processes and activities of a travelling and the purpose is to design a system using which one can perform all operations related to traveling. This application will help in accessing the information related to the travel to the particular destination with great ease.",
+        "image": "JAVA.jpg",
+        "url": "https://github.com/GauravSingh9356/GN_Tours_Services",
+        "skills": [
+          "https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white",
+          "https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white",
+          "https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white"
+        ]
+      },
+      {
+        "title": "J.A.R.V.I.S",
+        "description": "Personal Assistant built using python libraries. It does almost anything which includes sending emails, Optical Text Recognition, Dynamic News Reporting at any time with API integration, Todo list generator, Opens any website with just a voice command, Plays Music, Wikipedia searching, Dictionary with Intelligent Sensing i.e. auto spell checking, Weather Reporting i.e. temp, wind speed, humidity, YouTube searching, Google Map searching, Youtube Downloading, etc. It has 650+⭐ and 150+ forks on GitHub 🚀.",
+        "image": "JARVIS.gif",
+        "url": "https://github.com/GauravSingh9356/J.A.R.V.I.S",
+        "skills": [
+          "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54",
+          "https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white",
+          "https://img.shields.io/badge/Wikipedia-%23000000.svg?style=for-the-badge&logo=wikipedia&logoColor=white"
+        ]
+      }
+    ]
+  }
+}
