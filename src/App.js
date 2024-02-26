@@ -1,15 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Portfolio from './Components/Portfolio';
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import About from "./Components/About";
+import Resume from "./Components/Resume";
+import Portfolio from "./Components/Portfolio";
 
-import Contact from './Components/Contact';
-import Particles from 'react-tsparticles';
+import Contact from "./Components/Contact";
+import Particles from "react-tsparticles";
 
-import './App.css';
+import "./App.css";
+import Terminal from "./Components/Terminal";
+import TerminalUI from "./Components/Terminal";
 
 const App = () => {
   const particlesInit = (main) => {
@@ -24,7 +26,7 @@ const App = () => {
   const [resumeData, setResumeData] = useState({});
 
   useEffect(() => {
-    fetch('/resumeData.json')
+    fetch("/resumeData.json")
       .then((res) => res.json())
       .then((data) => {
         setResumeData(data);
@@ -32,9 +34,9 @@ const App = () => {
   }, []);
 
   return (
-    <div style={{ background: '#0065FF' }}>
+    <div style={{ background: "#0065FF" }}>
       <Particles
-        id='tsparticles'
+        id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
         options={{
@@ -59,16 +61,16 @@ const App = () => {
           },
           particles: {
             color: {
-              value: '#ffffff',
+              value: "#ffffff",
             },
 
             collisions: {
               enable: true,
             },
             move: {
-              direction: 'none',
+              direction: "none",
               enable: true,
-              outMode: 'bounce',
+              outMode: "bounce",
               random: false,
               speed: 2.5,
               straight: false,
@@ -84,50 +86,76 @@ const App = () => {
               value: 0.8,
             },
             shape: {
-              type: ['image'],
+              type: ["image"],
               image: [
                 {
-                  src: 'img/react.svg',
+                  src: "img/react.svg",
                   height: 20,
                   width: 20,
                 },
                 {
-                  src: 'img/js.svg',
+                  src: "img/js.svg",
                   height: 20,
                   width: 20,
                 },
                 {
-                  src: 'img/nodejs.svg',
+                  src: "img/nodejs.svg",
                   height: 20,
                   width: 20,
                 },
                 {
-                  src: 'img/mongodb.svg',
+                  src: "img/mongodb.svg",
                   height: 20,
                   width: 20,
                 },
                 {
-                  src: 'img/cloud.svg',
+                  src: "img/cloud.svg",
                   height: 20,
                   width: 20,
                 },
                 {
-                  src: 'img/c++.svg',
+                  src: "img/c++.svg",
                   height: 20,
                   width: 20,
                 },
                 {
-                  src: 'img/java.svg',
+                  src: "img/java.svg",
+                  height: 20,
+                  width: 20,
+                },
+
+                {
+                  src: "img/mysql.svg",
                   height: 20,
                   width: 20,
                 },
                 {
-                  src: 'img/css.svg',
+                  src: "img/spring.svg",
                   height: 20,
                   width: 20,
                 },
                 {
-                  src: 'img/mysql.svg',
+                  src: "img/postgresql.svg",
+                  height: 20,
+                  width: 20,
+                },
+                {
+                  src: "img/docker.svg",
+                  height: 20,
+                  width: 20,
+                },
+                {
+                  src: "img/kubernetes.svg",
+                  height: 20,
+                  width: 20,
+                },
+                {
+                  src: "img/kafka.svg",
+                  height: 20,
+                  width: 20,
+                },
+                {
+                  src: "img/aws.svg",
                   height: 20,
                   width: 20,
                 },
@@ -141,9 +169,10 @@ const App = () => {
         }}
       />
 
-      <div className='App'>
+      <div className="App">
         <Header data={resumeData.main} />
         <About data={resumeData.main} />
+        <TerminalUI />
         <Resume data={resumeData.resume} />
         <Portfolio data={resumeData.portfolio} />
         <Footer data={resumeData.main} />
