@@ -10,7 +10,7 @@ import Contact from "./Components/Contact";
 import Particles from "react-tsparticles";
 
 import "./App.css";
-import TerminalUI from "./Components/Terminal";
+// import TerminalUI from "./Components/Terminal";
 
 const App = () => {
   const particlesInit = (main) => {
@@ -34,7 +34,7 @@ const App = () => {
 
   return (
     <div style={{ background: "#0b73a8" }}>
-      {/* <Particles
+      <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -166,12 +166,12 @@ const App = () => {
           },
           detectRetina: true,
         }}
-      /> */}
+      />
 
       <div className="App">
         <Header data={resumeData.main} />
         <About data={resumeData.main} />
-        <TerminalUI />
+        {/* <TerminalUI /> */}
         <Resume data={resumeData.resume} />
         <Portfolio data={resumeData.portfolio} />
         <Footer data={resumeData.main} />
