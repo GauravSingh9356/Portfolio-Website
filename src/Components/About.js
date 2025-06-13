@@ -4,9 +4,7 @@ const About = ({ data }) => {
   if (data) {
     var name = data.name;
     var profilepic = "images/" + data.image;
-    var bio = data.bio.split("3");
-    var beforeStar = bio[0];
-    var afterStar = bio[1];
+    var bio = data.bio;
 
     var phone = data.phone;
     var email = data.email;
@@ -53,8 +51,7 @@ const About = ({ data }) => {
                 fontWeight: "bold",
               }}
             >
-              {beforeStar}
-              {afterStar}
+              {bio}
             </p>
           </div>
 

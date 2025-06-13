@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Gaurav Singh",
-    "occupation": "Software Engineer at Centre For Development of Telematics - CDOT",
-    "description": "(Ex - Amazon, C1X, Retechgen) ",
+    "occupation": "Software Engineer at Amazon",
+    "description": "(Ex - Scientist (C-DOT), C1X, Retechgen)",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Gaurav! I am a Software Engineer at Centre For Development of Telematics - CDOT.  I am a Full Stack Developer, love to build scalable, high quality software solutions. Having almost 1 year of industry working experience, I have worked with top giants like Amazon as well as pioneer startups like Class One Exchange (C1X), Retechgen. I love to build industry-ready products with idea of solving real world problems through it. I have solved more than 1500+ problems on LeetCode, GFG, CodeChef. I have done Frontend with vanillaJS and ReactJS. Backend with Node, Express. Specialized in M.E.R.N stack. Worked closely with Spring Boot, Spring Cloud, Kafka, Docker, Kubernetes, AWS in different projects. Have worked with Sql like MySql, PostgreSql as well NoSql databases like Casandra and MongoDB. I can also code in Python, Java, C++/C. I am actively looking for new challenge to hone my existing skills and develop new ones!",
+    "bio": "👋 Hi there! I'm a Software Engineer with 3 years of hands-on experience in building scalable, reliable, and maintainable backend services that solve real-world problems and drive business impact. At Amazon, I design and develop highly available, fault-tolerant distributed systems. I led the end-to-end development of a notification service for Alexa Emergency Assist, achieving a 21% reduction in system latency. I played a key role in the launch of Alexa+ by integrating Amazon Prime membership subscriptions, helping drive adoption by millions of customers. Additionally, I collaborated on integrating a domain-specific Emergency/Safety Expert powered by LLMs into Alexa+. I also implemented core system improvements that reduced operational noise by 19%, contributing significantly to the team’s operational excellence. Previously, at C-DOT (Centre for Development of Telematics), I worked as a Software Engineer and Scientist, where I designed microservices that processed 100K+ transactions daily. I played a significant role in national-scale projects like ASTRA, enhancing fraud detection systems used across India. I hold a strong foundation in Computer Science from the Indian Institute of Information Technology, Kalyani (IIIT Kalyani), and I'm passionate about solving complex backend challenges, cloud computing, and full-stack development. I’m an avid learner who thrives in collaborative environments and is always eager to explore the latest in tech. Whether it’s optimizing system performance or diving into a new framework, I bring curiosity, ownership, and a growth mindset to everything I do. Let’s connect if you're looking for someone who’s passionate about backend systems, cloud architecture, and building impactful tech solutions! 🚀",
     "contactmessage": "Get in touch",
     "email": "gs935688@gmail.com",
     "phone": "+91 9517608244",
@@ -44,6 +44,13 @@
     ],
     "work": [
       {
+        "pic": "amazon.png",
+        "company": "Amazon",
+        "title": "Software Engineer",
+        "years": "July 2024 - Current",
+        "description": "Led end-to-end service migration handling 50K+ events using AWS Lambda, SQS, and SNS, resulting in a 21% reduction in latency and playing a key role in the Alexa+ launch. Designed and implemented seamless integration of Amazon Prime Membership with Alexa+ Subscriptions, managing the entire event lifecycle—including registration, cancellation, and automated customer notifications impacting 5M+ customers. Collaborated on the integration of a domain-specific Emergency and Safety Agent, powered by Large Language Models (LLMs), into the Alexa+ platform to enhance user safety experiences. Resolved multiple recurring Sev2s and High Severity Events (HSE), enhancing system reliability and reducing alert noise by 19%, significantly improving operational efficiency"
+      },
+      {
         "pic": "download.jpeg",
         "company": "Centre For Development of Telematics - CDOT",
         "title": "Software Engineer",
@@ -54,7 +61,7 @@
         "pic": "amazon.png",
         "company": "Amazon",
         "title": "Software Engineer Intern",
-        "years": "Jan 2023 - Current",
+        "years": "Jan 2023 - July 2023",
         "description": " Developed high-performance API endpoints using Java Spring Boot and AWS serving 100k+ user base daily. Exhanced Customer Experience by reducing total Error Rate by 21% and scaling error handling mechanism.  Ensured system stability adding 15+ alarms with AWS Cloudwatch on Api’s and AWS lambda with CDK. Integrated CSM metrics on frontEnd side and reduced abandonment rate from 38% to 17% on Alexa PreSetup"
       },
       {

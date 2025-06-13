@@ -91,7 +91,7 @@ const Header = ({ data }) => {
           <h1 className="responsive-headline">
             <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
           </h1>
-          <h3 style={{ color: "#fff" }}>
+          <h3 style={{ color: "#fff", fontWeight: "bold" }}>
             <span style={{ color: "#fff" }}>{occupation}</span>.
           </h3>
           <h5 style={{ color: "#fff" }}>

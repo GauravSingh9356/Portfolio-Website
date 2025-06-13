@@ -10,7 +10,6 @@ import Contact from "./Components/Contact";
 import Particles from "react-tsparticles";
 
 import "./App.css";
-import Terminal from "./Components/Terminal";
 import TerminalUI from "./Components/Terminal";
 
 const App = () => {
@@ -34,7 +33,7 @@ const App = () => {
   }, []);
 
   return (
-    <div style={{ background: "#0065FF" }}>
+    <div style={{ background: "#0b73a8" }}>
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -85,82 +84,82 @@ const App = () => {
             opacity: {
               value: 0.8,
             },
-            shape: {
-              type: ["image"],
-              image: [
-                {
-                  src: "img/react.svg",
-                  height: 20,
-                  width: 20,
-                },
-                {
-                  src: "img/js.svg",
-                  height: 20,
-                  width: 20,
-                },
-                {
-                  src: "img/nodejs.svg",
-                  height: 20,
-                  width: 20,
-                },
-                {
-                  src: "img/mongodb.svg",
-                  height: 20,
-                  width: 20,
-                },
-                {
-                  src: "img/cloud.svg",
-                  height: 20,
-                  width: 20,
-                },
-                {
-                  src: "img/c++.svg",
-                  height: 20,
-                  width: 20,
-                },
-                {
-                  src: "img/java.svg",
-                  height: 20,
-                  width: 20,
-                },
+            // shape: {
+            //   type: ["image"],
+            //   image: [
+            //     {
+            //       src: "img/react.svg",
+            //       height: 20,
+            //       width: 20,
+            //     },
+            //     {
+            //       src: "img/js.svg",
+            //       height: 20,
+            //       width: 20,
+            //     },
+            //     {
+            //       src: "img/nodejs.svg",
+            //       height: 20,
+            //       width: 20,
+            //     },
+            //     {
+            //       src: "img/mongodb.svg",
+            //       height: 20,
+            //       width: 20,
+            //     },
+            //     {
+            //       src: "img/cloud.svg",
+            //       height: 20,
+            //       width: 20,
+            //     },
+            //     {
+            //       src: "img/c++.svg",
+            //       height: 20,
+            //       width: 20,
+            //     },
+            //     {
+            //       src: "img/java.svg",
+            //       height: 20,
+            //       width: 20,
+            //     },
 
-                {
-                  src: "img/mysql.svg",
-                  height: 20,
-                  width: 20,
-                },
-                {
-                  src: "img/spring.svg",
-                  height: 20,
-                  width: 20,
-                },
-                {
-                  src: "img/postgresql.svg",
-                  height: 20,
-                  width: 20,
-                },
-                {
-                  src: "img/docker.svg",
-                  height: 20,
-                  width: 20,
-                },
-                {
-                  src: "img/kubernetes.svg",
-                  height: 20,
-                  width: 20,
-                },
-                {
-                  src: "img/kafka.svg",
-                  height: 20,
-                  width: 20,
-                },
-                {
-                  src: "img/aws.svg",
-                  height: 20,
-                  width: 20,
-                },
-              ],
-            },
+            //     {
+            //       src: "img/mysql.svg",
+            //       height: 20,
+            //       width: 20,
+            //     },
+            //     {
+            //       src: "img/spring.svg",
+            //       height: 20,
+            //       width: 20,
+            //     },
+            //     {
+            //       src: "img/postgresql.svg",
+            //       height: 20,
+            //       width: 20,
+            //     },
+            //     {
+            //       src: "img/docker.svg",
+            //       height: 20,
+            //       width: 20,
+            //     },
+            //     {
+            //       src: "img/kubernetes.svg",
+            //       height: 20,
+            //       width: 20,
+            //     },
+            //     {
+            //       src: "img/kafka.svg",
+            //       height: 20,
+            //       width: 20,
+            //     },
+            //     {
+            //       src: "img/aws.svg",
+            //       height: 20,
+            //       width: 20,
+            //     },
+            //   ],
+            // },
             size: {
               value: 20,
             },
