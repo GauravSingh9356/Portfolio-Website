@@ -34,7 +34,7 @@ const App = () => {
 
   return (
     <div style={{ background: "#0b73a8" }}>
-      <Particles
+      {/* <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -166,7 +166,7 @@ const App = () => {
           },
           detectRetina: true,
         }}
-      />
+      /> */}
 
       <div className="App">
         <Header data={resumeData.main} />
