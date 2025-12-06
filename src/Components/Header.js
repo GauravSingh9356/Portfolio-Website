@@ -6,6 +6,7 @@ const Header = ({ data }) => {
     var name = data.name;
     var occupation = data.occupation;
     var description = data.description;
+    var profileImage = "images/" + data.image;
 
     var networks = data.social.map(function (network) {
       return (
@@ -87,6 +88,29 @@ const Header = ({ data }) => {
       </nav>
 
       <div className="row banner">
+        <div
+          className="banner-image"
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          {/* {data && profileImage && (
+            <img
+              src={profileImage}
+              alt="Gaurav's Profile"
+              style={{
+                width: "280px",
+                height: "280px",
+                borderRadius: "50%",
+                objectFit: "cover",
+                boxShadow: "0 15px 35px rgba(0, 180, 216, 0.3)",
+                border: "4px solid rgba(0, 200, 255, 0.5)",
+              }}
+            />
+          )} */}
+        </div>
         <div className="banner-text">
           <h1 className="responsive-headline">
             <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>

@@ -7,6 +7,7 @@ import Resume from "./Components/Resume";
 import Portfolio from "./Components/Portfolio";
 
 import Contact from "./Components/Contact";
+import Chatbot from "./Components/ChatbotFriendly";
 import Particles from "react-tsparticles";
 
 import "./App.css";
@@ -38,143 +39,87 @@ const App = () => {
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
+        style={{
+          position: "fixed",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          zIndex: 0,
+        }}
         options={{
           fpsLimit: 60,
+          fullScreen: { enable: false },
           interactivity: {
             events: {
+              onHover: { enable: true, mode: "repulse" },
+              onClick: { enable: true, mode: "push" },
               resize: true,
             },
             modes: {
-              bubble: {
-                distance: 2000,
-                duration: 2,
-                opacity: 0.8,
-                size: 40,
-              },
-
-              repulse: {
-                distance: 1000,
-                duration: 0.4,
-              },
+              repulse: { distance: 150, duration: 0.6 },
+              push: { quantity: 4 },
+              grab: { distance: 200, links: { opacity: 0.8 } },
             },
+            parallax: { enable: true, force: 30, smooth: 10 },
           },
           particles: {
-            color: {
-              value: "#ffffff",
-            },
-
-            collisions: {
+            number: { value: 45, density: { enable: true, area: 900 } },
+            color: { value: ["#00b4d8", "#00c8ff", "#64c8ff", "#a0e9ff"] },
+            links: {
               enable: true,
+              distance: 150,
+              color: "#00c8ff",
+              opacity: 0.12,
+              width: 1,
             },
             move: {
-              direction: "none",
               enable: true,
-              outMode: "bounce",
+              speed: 1.2,
+              direction: "none",
               random: false,
-              speed: 2.5,
               straight: false,
-            },
-            number: {
-              density: {
-                enable: true,
-                area: 1000,
-              },
-              value: 10,
+              outMode: "out",
             },
             opacity: {
-              value: 0.8,
+              value: { min: 0.2, max: 0.9 },
+              anim: { enable: true, speed: 1, opacity_min: 0.2, sync: false },
             },
-            // shape: {
-            //   type: ["image"],
-            //   image: [
-            //     {
-            //       src: "img/react.svg",
-            //       height: 20,
-            //       width: 20,
-            //     },
-            //     {
-            //       src: "img/js.svg",
-            //       height: 20,
-            //       width: 20,
-            //     },
-            //     {
-            //       src: "img/nodejs.svg",
-            //       height: 20,
-            //       width: 20,
-            //     },
-            //     {
-            //       src: "img/mongodb.svg",
-            //       height: 20,
-            //       width: 20,
-            //     },
-            //     {
-            //       src: "img/cloud.svg",
-            //       height: 20,
-            //       width: 20,
-            //     },
-            //     {
-            //       src: "img/c++.svg",
-            //       height: 20,
-            //       width: 20,
-            //     },
-            //     {
-            //       src: "img/java.svg",
-            //       height: 20,
-            //       width: 20,
-            //     },
-
-            //     {
-            //       src: "img/mysql.svg",
-            //       height: 20,
-            //       width: 20,
-            //     },
-            //     {
-            //       src: "img/spring.svg",
-            //       height: 20,
-            //       width: 20,
-            //     },
-            //     {
-            //       src: "img/postgresql.svg",
-            //       height: 20,
-            //       width: 20,
-            //     },
-            //     {
-            //       src: "img/docker.svg",
-            //       height: 20,
-            //       width: 20,
-            //     },
-            //     {
-            //       src: "img/kubernetes.svg",
-            //       height: 20,
-            //       width: 20,
-            //     },
-            //     {
-            //       src: "img/kafka.svg",
-            //       height: 20,
-            //       width: 20,
-            //     },
-            //     {
-            //       src: "img/aws.svg",
-            //       height: 20,
-            //       width: 20,
-            //     },
-            //   ],
-            // },
-            size: {
-              value: 20,
+            shape: {
+              type: ["circle", "image"],
+              image: [
+                { src: "img/react.svg", width: 20, height: 20 },
+                { src: "img/js.svg", width: 20, height: 20 },
+                { src: "img/nodejs.svg", width: 20, height: 20 },
+                { src: "img/mongodb.svg", width: 20, height: 20 },
+                { src: "img/cloud.svg", width: 20, height: 20 },
+                { src: "img/c++.svg", width: 20, height: 20 },
+                { src: "img/java.svg", width: 20, height: 20 },
+                { src: "img/mysql.svg", width: 20, height: 20 },
+                { src: "img/spring.svg", width: 20, height: 20 },
+                { src: "img/postgresql.svg", width: 20, height: 20 },
+                { src: "img/docker.svg", width: 20, height: 20 },
+                { src: "img/kubernetes.svg", width: 20, height: 20 },
+                { src: "img/kafka.svg", width: 20, height: 20 },
+                { src: "img/aws.svg", width: 20, height: 20 },
+                { src: "img/css.svg", width: 20, height: 20 },
+              ],
             },
+            size: { value: { min: 8, max: 20 }, random: true },
+            shadow: { enable: true, color: "#00c8ff", blur: 6 },
           },
           detectRetina: true,
         }}
       />
 
-      <div className="App">
+      <div className="App" style={{ position: "relative", zIndex: 1 }}>
         <Header data={resumeData.main} />
         <About data={resumeData.main} />
         {/* <TerminalUI /> */}
         <Resume data={resumeData.resume} />
         <Portfolio data={resumeData.portfolio} />
         <Footer data={resumeData.main} />
+        <Chatbot backendUrl="/api/chat" />
       </div>
     </div>
   );
